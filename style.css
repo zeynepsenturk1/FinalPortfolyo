@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;1,500&display=swap');
+*{
+font-family: 'Afacad', sans-serif;
+margin: 0;
+padding: 0;
+}
+html{
+    overflow-x: hidden;
+    }
+body {background-image: url("images/bernard-hermant-hQ3WZnY3yZ0-unsplash.jpg");
+background-position: center;
+background-attachment: fixed;
+background-size: cover;}
+
+.screensaver-layout { background: rgba(34, 33, 32, 0.621); z-index: 1000; position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
+.hidden { display: none; }
+
+.greetings {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-style: italic;
+    position: fixed;
+    top: 0;
+   left: 2%;
+}
+
+.date {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 2%;
+}
+
+.menu-container{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        right: 5%;
+        height: 9rem;
+        border-style: inset;
+        border-width: 0.5rem;
+        align-items: center;
+    }
+    .baslik{
+        font-size: 150%;
+        font-weight: 200;
+       margin: auto;
+    } 
+
+    .p{
+        margin-top: 19%;
+        font-size: 150%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        font-weight: bold;
+     }
+
+     .box{
+        width: 29%;
+        height: 30%;
+        background-color: rgba(0, 0, 0, 0.510);
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        top: 51%;
+        left: 20%;
+        text-align: center;
+     }
+    .box2{
+        width: 29%;
+        height: 30%;
+        background-color: rgba(0, 0, 0, 0.510);
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        top: 51%;
+        right: 20%;
+        text-align: center;
+    }
+
+    .yazı1{
+       margin-top: 18%;
+        font-size: 260%;
+        }
+        
+        .yazı2{
+        margin-top: 18%;
+        font-size: 260%;
+        }
+
+        
+        .container3{
+            display: flex;
+            position: absolute;
+            top: 15%;
+            left: 2%;
+            right: 2%;
+            height: 7rem;
+            background-color: rgba(132, 132, 132, 0.716); 
+            border-style: dashed;
+            align-items: center;
+        }
+        .baslik2{
+            font-size: 120%;
+            margin-left: 4%;  
+            color: rgb(0, 0, 0);
+         }
+         .p2{
+            margin-top:20%;
+            font-size: 180%;
+            margin-left: 6%;
+         }
+
+         .yazı3{
+            position: fixed;
+            top: 0;
+            right: 15%;
+            font-size: 1.7rem;
+            font-weight: bold;
+         }
+            .menu-container1{
+                    display: flex;
+                    position: absolute;
+                    top: 10%;
+                    left: 2%;
+                    right: 2%;
+                    height: 7rem;
+                    background-color: rgba(132, 132, 132, 0.716); 
+                    border-style: dotted;
+                    align-items: center;
+                }
+            
+
+            .baslik1{
+                font-size: 120%;
+                margin-left: 4%;  
+                color: rgb(0, 0, 0);}
+
+                img{
+                    padding: 1%;
+                    max-width: 48%;
+                    height: auto;
+                }
+                .img-container{
+                    margin-top: 15%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .img-container2{
+                    display: flex;
+                    justify-content: space-evenly;
+                }
